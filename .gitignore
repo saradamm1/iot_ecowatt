@@ -1,0 +1,1 @@
+Set-Content -Path .gitignore -Value ".venv/","__pycache__/",".pytest_cache/","ecowatt.db*","*.pyc" -Encoding ascii

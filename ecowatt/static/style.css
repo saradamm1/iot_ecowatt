@@ -1,0 +1,39 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Liberation Sans",Arial,sans-serif;background:#eef2f6;color:#1f2933;width:1440px}
+.app{display:flex;min-height:860px}
+.side{width:210px;background:#102a43;color:#d9e2ec;padding:20px 14px}
+.logo{font-size:22px;font-weight:700;color:#fff;margin-bottom:4px}.logo span{color:#48bb78}
+.org{font-size:12px;color:#9fb3c8;margin-bottom:24px}
+.nav a{display:block;padding:10px 12px;border-radius:8px;font-size:15px;margin-bottom:4px;color:#d9e2ec;text-decoration:none}
+.nav a.on{background:#243b53;color:#fff;font-weight:700}
+.nav .badge{float:right;background:#e53e3e;color:#fff;border-radius:10px;padding:0 7px;font-size:12px;line-height:18px}
+.main{flex:1;padding:22px 26px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+.top h1{font-size:24px}
+.top .meta{font-size:13px;color:#52606d}
+.pill{display:inline-block;padding:4px 10px;border-radius:12px;font-size:12px;font-weight:700}
+.ok{background:#c6f6d5;color:#22543d}.warn{background:#feebc8;color:#7b341e}.crit{background:#fed7d7;color:#822727}.off{background:#e2e8f0;color:#2d3748}.info{background:#bee3f8;color:#2a4365}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}
+.card{background:#fff;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.card .lbl{font-size:13px;color:#52606d}
+.card .val{font-size:30px;font-weight:700;margin:6px 0 2px}
+.card .val small{font-size:15px;color:#52606d;font-weight:400}
+.card .d{font-size:13px}
+.up{color:#c53030}.dn{color:#2f855a}
+.grid2{display:grid;grid-template-columns:2fr 1fr;gap:14px;margin-bottom:14px}
+.panel{background:#fff;border-radius:12px;padding:16px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.panel h3{font-size:16px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center}
+.panel h3 span{font-size:12px;color:#52606d;font-weight:400}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;color:#52606d;font-weight:600;font-size:12.5px;text-transform:uppercase;padding:8px 8px;border-bottom:1.5px solid #d9e2ec}
+td{padding:9px 8px;border-bottom:1px solid #edf2f7}
+.bar{height:8px;background:#e2e8f0;border-radius:4px;overflow:hidden}.bar i{display:block;height:100%}
+.btn{display:inline-block;padding:6px 12px;border-radius:7px;font-size:13px;font-weight:700;border:1.5px solid #cbd2d9;background:#fff;color:#243b53}
+.btn.p{background:#2b6cb0;color:#fff;border-color:#2b6cb0}.btn.r{background:#c53030;color:#fff;border-color:#c53030}
+.filters{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.chip{padding:6px 12px;border-radius:16px;background:#fff;border:1.5px solid #cbd2d9;font-size:13px}
+.chip.on{background:#243b53;color:#fff;border-color:#243b53}
+.tog{display:inline-block;width:38px;height:20px;border-radius:10px;background:#48bb78;position:relative;vertical-align:middle}
+.tog:after{content:"";position:absolute;right:2px;top:2px;width:16px;height:16px;border-radius:8px;background:#fff}
+.tog.offt{background:#cbd2d9}.tog.offt:after{left:2px;right:auto}
+code{font-family:"Liberation Mono",monospace;font-size:12.5px;background:#f0f4f8;padding:2px 5px;border-radius:4px}
